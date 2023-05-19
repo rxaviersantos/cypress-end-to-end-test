@@ -20,6 +20,10 @@ O teste de ponta a ponta ( comumente conhecido como E2E) é um tipo de método d
 
 Conforme indicado aqui, a pirâmide mostra de baixo para cima: Unidade, Integração, E2E. À medida que você sobe a pirâmide, os testes ficam mais lentos para escrever / executar e mais caros ( em termos de tempo e recursos ) para executar / manter. É para indicar que você deve gastar mais do seu tempo em testes de unidade devido a esses fatores. Uma coisa que não mostra é que enquanto você sobe a pirâmide, o o quociente de confiança de cada forma de teste aumenta. Você ganha mais dinheiro por seu dinheiro. Portanto, embora os testes E2E possam ser mais lentos e mais caros que os testes de unidade, eles trazem muito mais confiança de que seu aplicativo está funcionando pretendido.
 
+## Visão geral
+
+Este repositório mostra um exemplo básico de uso do Cypress para criar testes simples de ponta a ponta para qualquer aplicativo da web. Este exemplo uso um aplicativo StackDemo, mas você pode reutilizar o padrão neste repositório para qualquer aplicativo da web que possa ser executado.
+
 ## Iniciando novo repositório 
 Dentro da pasta do projeto, crie uma nova pasta e abra o terminal ou prompt de comando, digite o comando abaixo: 
 ```bash 
