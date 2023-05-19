@@ -102,9 +102,11 @@ Obs.: É recomendado criar ```npm scripts``` no arquivo ```package.json``` com a
 
 ## Screenshots
 
-Executando o teste Cypress end to end  
+Resultado do teste Cypress End To End  via linha de comando em modo headless
+                                                                                
 <p align="center">
-  <img alt="" "height="700px" width="1020px"> </p>
+  <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-end-to-end-test/assets/85380530/9bd8e6a7-2604-4516-ae05-5b87c07d4e2c" "height="600px" width="850px"> </p>
+  
 
 ## Rodando localmente
 
