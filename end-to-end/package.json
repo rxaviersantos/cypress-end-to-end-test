@@ -4,7 +4,7 @@
   "description": "Um exemplo simples de uso do Cypress para testes de ponta a ponta",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "keywords": [
     "Cypress",

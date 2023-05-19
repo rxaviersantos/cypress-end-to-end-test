@@ -58,6 +58,44 @@ O arquivo .gitignore é um arquivo de texto que diz ao Git quais arquivos ou pas
  ```bash 
 npx cypress open
 ```
+
+### Executando o Cypress via linha de comando em modo headless
+ ```bash 
+npx cypress run 
+```
+O comando acima irá executar todos os testes existentes na mesma pasta.
+ ```bash 
+npx cypress run --spec cypress/e2e/e2e.cy.js
+```
+
+O comando acima irá executar somente um arquivo específico.
+
+
+Obs.: É recomendado criar ```npm scripts``` no arquivo ```package.json``` com atalhos para a execução de tais comandos. Veja o ```scripts``` abaixo.
+
+````json
+{
+  "name": "end-to-end",
+  "version": "1.0.0",
+  "description": "Um exemplo simples de uso do Cypress para testes de ponta a ponta",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "JavaScript"
+  ],
+  "author": "Rodrigo Xavier",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "cypress-xpath": "^2.0.1",
+    "dependency-version-badge": "^1.11.0"
+  }
+}
+```` 
+
 ## Screenshots
 
 Executando o teste Cypress end to end  
@@ -87,7 +125,7 @@ Instale as dependências
 Inicie o servidor
 
 ```bash
-  npm cypress open
+  npx cypress open
 ```
 
        
